@@ -1,4 +1,5 @@
 .characterEditor {
+  isolation: isolate;
   padding-top: 128px;
   padding-bottom: 64px;
 }
@@ -35,4 +36,13 @@
 
 .controlColumn {
   width: 50%;
+}
+
+.decoration {
+  position: fixed;
+  top: 60%;
+  bottom: -40%;
+  left: 0;
+  right: 0;
+  background-color: hsl(195deg, 20%, 86%);
 }
